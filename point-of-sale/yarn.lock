@@ -1108,6 +1108,13 @@
     "@solana/web3.js" "^1.20.0"
     eventemitter3 "^4.0.0"
 
+"@solana/wallet-adapter-base@^0.9.10":
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-base/-/wallet-adapter-base-0.9.10.tgz#6a4b2e5218b5939fb607e263760c48cd016af0f3"
+  integrity sha512-NmNybJSoQ4jYb62lKbTIqMhAivpwwzBBrgHNQjGQlhunIusbYf3an7pyPPfeqgBKdPi4IaNA782O0g6q2tjGRQ==
+  dependencies:
+    eventemitter3 "^4.0.0"
+
 "@solana/wallet-adapter-bitkeep@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-bitkeep/-/wallet-adapter-bitkeep-0.3.3.tgz#a531f3ba98918708ee885bee07897b13c1911313"
@@ -1196,7 +1203,7 @@
     react "^17.0.0"
     react-dom "^17.0.0"
 
-"@solana/wallet-adapter-react@^0.15.0", "@solana/wallet-adapter-react@^0.15.2", "@solana/wallet-adapter-react@^0.15.3":
+"@solana/wallet-adapter-react@^0.15.0", "@solana/wallet-adapter-react@^0.15.3":
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-react/-/wallet-adapter-react-0.15.3.tgz#f3122a691427769d37d0c291b7f0b0f712aa805c"
   integrity sha512-Nfd8R2WQ8kf/I4x5MzmEVth4sd5tM2sroOdvk9YzHhCo2nBg2edbQCE9rMHzMBEH6+egTA7dgQrlf0FTMHPUzw==
@@ -1204,6 +1211,13 @@
     "@solana/wallet-adapter-base" "^0.9.3"
     "@solana/web3.js" "^1.20.0"
     react "^17.0.0"
+
+"@solana/wallet-adapter-react@^0.15.8":
+  version "0.15.9"
+  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-react/-/wallet-adapter-react-0.15.9.tgz#da7d792474b8458c6133c2328f8fd2a946ad49d8"
+  integrity sha512-WJzs6FpuOMJqnhwuilq7lje+rErBm1xLiKMeX7vdzolIN+C/bUs4sCGGujNnI13NjZG+xiZvjQ5/QuYqW0Q3sw==
+  dependencies:
+    "@solana/wallet-adapter-base" "^0.9.10"
 
 "@solana/wallet-adapter-safepal@^0.5.2":
   version "0.5.3"
@@ -5661,6 +5675,7 @@ statuses@~1.5.0:
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
 stream-browserify@^3.0.0, "stream@npm:stream-browserify@^3.0.0":
+  name stream
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-3.0.0.tgz#22b0a2850cdf6503e73085da1fc7b7d0c2122f2f"
   integrity sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA==
